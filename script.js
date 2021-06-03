@@ -129,7 +129,7 @@ createUsername(accounts);
 
 const updateUI = function(acc){
   // Display movements
-  displayMovements(acc.movements);
+  displayMovements(acc);
 
   //Display balance
   calcDisplayBalance(acc);
